@@ -1,4 +1,4 @@
-/*Considere que o perfil de uma pessoa pode ser determinado a partir da sua data de nascimento, conforme exemplificado a seguir.
+/*1- Considere que o perfil de uma pessoa pode ser determinado a partir da sua data de nascimento, conforme exemplificado a seguir.
 Data uma data de nascimento, informe o perfil correspondente.*/ 
 #include <stdio.h> 
   int main(){ 
@@ -19,25 +19,17 @@ Data uma data de nascimento, informe o perfil correspondente.*/
 
    if(resul== 0){ 
   printf(" Seu perfil e Tímido"); 
-  } 
-    else{ 
-      if(resul== 1){ 
+   } 
+    else if(resul== 1){ 
       printf("Seu perfil e Sonhador"); 
-  } 
-    else{ 
-      if(resul== 2){ 
-      printf("Seu perfil e Paquerador"); 
-  } 
-    else{ 
-      if(resul== 3){ 
-      printf("Seu perfil e Atraente"); 
-} 
-    else{ 
-     if(resul== 4){ 
-      printf("Seu perfil e Irresistível"); 
-      } 
     } 
-  } 
-} 
-} 
+    else if(resul== 2){ 
+      printf("Seu perfil e Paquerador"); 
+    } 
+    else if(resul== 3){ 
+      printf("Seu perfil e Atraente"); 
+    } 
+    else if(resul== 4){ 
+      printf("Seu perfil e Irresistível"); 
+   }  
 }
