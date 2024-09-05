@@ -1,8 +1,6 @@
-//Faça um programa que receba três notas de um aluno, calcule e mostre a média aritmética e a mensagem que segue a tabela abaixo.
+/*3- Faça um programa que receba três notas de um aluno, calcule e mostre a média aritmética e a mensagem que segue a tabela abaixo.*/
 #include <stdio.h>
-
-int main()
-{
+int main(){
 
   int n1, n2, n3, media;
 
@@ -14,22 +12,15 @@ int main()
 
   printf("Sua media e %d\n", media);
 
-  if (media >= 0 && media <= 2.99)
-  {
+  if (media >= 0 && media <= 2.99){
     printf("Esta Reprovado");
   }
 
-  else{
-    if (media >= 3 && media <= 6.99)
-    {
+  else if (media >= 3 && media <= 6.99){
       printf("Precisara fazer Exame");
-    }
+  }
 
-    else{
-      if (media >= 7 && media <= 10)
-      {
+  else if (media >= 7 && media <= 10){
         printf("Parabens, Aprovado");
-      }
-    }
   }
 }
