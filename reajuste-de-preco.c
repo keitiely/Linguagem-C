@@ -1,6 +1,6 @@
-//Um supermercado deseja reajustar os preços de seus produtos usando o seguinte critério: o produto poderá ter seu preço aumentado ou diminuído.
-//Para alterar o preço o produto deve preencher pelo menos um dos requisitos a seguir:
-//Faça um programa que receba o preço atual e a venda mensal média do produto, calcule e mostre o novo preço.
+/*Um supermercado deseja reajustar os preços de seus produtos usando o seguinte critério: o produto poderá ter seu preço aumentado ou diminuído.
+Para alterar o preço o produto deve preencher pelo menos um dos requisitos a seguir:
+Faça um programa que receba o preço atual e a venda mensal média do produto, calcule e mostre o novo preço.*/
 #include <stdio.h>
 
 int main(){
