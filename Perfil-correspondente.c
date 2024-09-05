@@ -1,4 +1,5 @@
-//Considere que o perfil de uma pessoa pode ser determinado a partir da sua data de nascimento, conforme exemplificado a seguir. Data uma data de nascimento, informe o perfil correspondente. 
+/*Considere que o perfil de uma pessoa pode ser determinado a partir da sua data de nascimento, conforme exemplificado a seguir.
+Data uma data de nascimento, informe o perfil correspondente.*/ 
 #include <stdio.h> 
   int main(){ 
 
