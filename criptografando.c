@@ -51,9 +51,10 @@ int main(){
     num4 = aux2;
   printf("\tNumero discriptografado:  %d%d%d%d\t", num1, num2, num3, num4);
 }
-  else
-    printf("numero inavlido, digite numero de quatro digitos");
-    return 1;
+  else{
+    printf("\tnumero inavlido, digite numero de quatro digitos!");
+    return 1;}
   
+  return 0;
   
 }
