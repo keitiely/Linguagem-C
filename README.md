@@ -59,6 +59,17 @@ Chama-se triângulo escaleno o triângulo que tem os três lados
 diferente
 [Triangulo](https://github.com/keitiely/if-else-C/blob/main/triangulo.c)
 
+- **Criptografando..**:
+Todos os dados são transmitidos como inteiros de quatro dígitos.
+Seu aplicativo deve ler um inteiro de quatro dígitos inserido pelo usuário e criptografá-lo da seguinte maneira:
+substitua cada dígito pelo resultado da adição de 7 ao dígito, obtendo o restante depois da divisão do novo valor por 10. 
+Troque então o primeiro dígito pelo terceiro e o segundo dígito pelo quarto. Então, imprima o inteiro criptografado. 
+Escreva um aplicativo separado que receba a entrada de um inteiro de quatro dígitos criptografado e o descriptografe 
+(revertendo o esquema de criptografia) para formar o número original. [Projeto de leitura opcional: pesquise a “criptografia de chave públicaˮ
+em geral e o esquema de chave pública específica PGP (Pretty Good Privacy). Você também pode querer investigar o esquema RSA, que é amplamente 
+usado em aplicativos robustos industriais.
+[Criptografando..](https://github.com/keitiely/if-else-C/blob/main/criptografando.c)
+
 ## Como Rodar
 
 1. **Copie o Código**: Abra o arquivo de código do exercício desejado e copie o código fornecido.
